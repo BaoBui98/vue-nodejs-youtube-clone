@@ -24,7 +24,7 @@ pipeline {
             steps {
                 git url: 'https://github.com/BaoBui98/vue-nodejs-youtube-clone',
                     branch: 'master',
-                    credentialsId: 'github-to-jenkins'
+                    credentialsId: 'do2602-devops'
             }
         }
         stage('Create Env File') {
